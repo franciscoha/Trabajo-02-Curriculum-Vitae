@@ -1,67 +1,117 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Trabajo 01 Maquetando en Html, Css </title>
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    </head>
-    <body>        
-        
-        <h1>CURRICULUM VITAE</h1> 
-        <section class="container">
-            <div class="top-div">
-                <div class="top-information">
-                    <div> Phone: 33-33-33-33</div>
-                    <div> Age: 19 years old</div>
-                    <div> Nationality: Mexican</div>
-                    <div> Last degree of studies: University</div>
-                </div>
-
-                <div class="image-div">  
-                    <img
-                      id="image"
-                      src="img/profilePicture.jpg"
-                      alt="profile picture"
-                   /> 
-                </div> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DocumeTrabajo 02 Curriculum Vitae implementado un framework de Diseñot</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="top-div">
+           <div class="col-md-3 col-" id="img-div">
+               <figure >
+                  <img id="img-profile" src="img/profilePicture.jpg">
+               </figure>
+           </div>
+           <div class="col-md-9 col-" >
+                <h1 id="name">Hernández Álvarez Francisco</h1> 
+           </div>
+            
+        </div>
+        <div class="row" id="down-div">
+            <div class="col-md-5 col-">
+                 <div class="row">
+                    <div class="col- information">
+                         <h2 class="section"><span class="glyphicon glyphicon-user"> Profile</span></h2>
+                        <p>Age: 23 years old</p>
+                        <p>
+                         Nationality: Mexican
+                         </p>
+                     </div>
+                 </div>
+                 
+                 <div class="row">
+                    <div class="col- information">
+                         <h2 class="section"><span class="glyphicon glyphicon-user"> Contact</span></h2>
+                         <p><span class="glyphicon glyphicon-earphone"></span> 33-33-33-33-33</p>
+                         <p><span class="glyphicon glyphicon-envelope"></span> francisco.halvarez@alumnos.udg.mx</p>
+                     </div>                     	
+                 </div>
+                 <div class="row">
+                    <div class="col- information">
+                        <h2 class="section"><span class="glyphicon glyphicon-stats"></span> Skills</h2>
+                        <p> C/C++ 
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p> 
+                        <p> C#
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                        <p> JAVA
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                        <p> PYTHON
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                        <p> HTML5
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                        <p> CSS3
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                        <p> SQL 
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                 </div>
             </div>
-
-            <div>
-                <div>Abilities:
-                    <p>
-                        proactive,
-                        good communication,
-                        ease of teamwork,
-                        persistence, self-taught
-                    </p>
-
-              </div>
-                <div>Work experience: none</div>
-                <div>Project Experience: none</div>
-                <div>Professional interests: construction and design with the help of technologies</div>
-                <div>Sorfware you know and percentage of domain:
-
-                     <p>
-                        Knowledge in technologies of: 
-                        <br>
-                        <img class="images" src="img/imageC_C++.png"> 
-                        <img class="images" src="img/imageCSS.png">
-                        <img class="images" src="img/imageHTML.png"> 
-                        <img class="images" src="img/imageJAVA.jpg">
-                        <img class="images" src="img/imagePYTHON.jpg">
-                    </p>
-                    <p>
-                        Handling tools: 
-                        <br>
-                        <img class="images" src="img/imageMATLAB.jpg">
-                        <img class="images" src="img/imageOFFICE.png">
-                        <img class="images" src="img/imageTEXMAKER.jpg"> 
-                    </p>      
-                </div>
-                <div>Languages you handle and percentage:
-                    <p>English 50%, Spanish 100%</p>
-                </div>
+            <div class="col-md-1" id="separator"></div>
+            <div class="col-md-6 col-">
+               <div class="row">
+                  <div class="col- information">
+                   <h2 class="section"><span class="glyphicon glyphicon-briefcase"></span> Employment</h2>
+                   </div>
+               </div>
+                <div class="row">
+                    <div class="col- information">
+                        <h2 class="section"><span class="glyphicon glyphicon-education"></span> Education</h2>
+                        <p><span class="glyphicon glyphicon-stop"></span> University of Guadalajara/Computer Engineering</p>
+                    </div>
+                </div>                
             </div>
-        </section>
-    </body>        
+        </div>
+    </div>
+    
+</body>
 </html>
