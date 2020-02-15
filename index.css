@@ -1,46 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');*/
-body{
-    text-align: center;
-     background-color: #a3ffa3;
-}
-.container{
-    width: 100%;
+
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Raleway&display=swap');
+#top-div{
+    background: #656565;
     margin: 0;
-    display: grid;
-    grid-template-areas:
-        "top-div"
-        "down-div";
-    background-color: #a3ffa3;
-    
-}
-h1{
+    padding: 10px 40px;
     text-align: center;
-    font-family: 'Lobster',cursive;
-   
+    align-items: flex-end;
+    justify-content: center;
 }
-.top-div{
-    background: var(--colorFondo);
-    display: grid; 
-    grid-template-areas: 
-        "information image";
+#name{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5vw;
+    margin: 5% auto;
 }
-.image-div{
-    grid-area: image;       
+#down-div{
+    background: azure;
+    margin: 0;
+    padding: 5%;
 }
-.image-div img{
+#img-div{
+    max-width:50%;
+    padding: 0;
+}
+#img-profile{
     display: block;
-    width: 30%;
-    border-radius: 30px;
+    max-width:100%;
+    height:auto;
+    border-radius:30px;
+    padding:0;
 }
-.top-information{
-    grid-area: information;
-    align-self: center;
+.section{/*setions profile,employment,...*/
+    color:#3aa4a8;
 }
-div{
-    width: 100%;
-    background-color: #a3ffa3;
+#separator{
+    background:#97a2a5;
+    max-width: 1px;
+    margin: 20px;
+    padding: 0;
 }
-.images{
-    width: 40px;
-    border-radius: 10px;
+#separato{
+    background:#97a2a5;
+    max-height: 1px;
+}
+p{
+    margin: 0px;
+    padding:0px 30px;
 }
